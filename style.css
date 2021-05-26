@@ -1,0 +1,251 @@
+/* <!--  set time out popUp --> */
+html,body{
+  overflow-x:hidden;
+}
+
+#popupmain{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:10000;
+
+}
+#popup{
+	width:500px;
+	height:300px;
+	background:linear-gradient(#1b1b18c2,#1f1f1b), url(images/news3.jpg);
+	background-size:cover;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+#emailid{
+	width:60%;
+	padding:5px;
+}
+.submitid{
+	border:none;
+	outline:none;
+	background:#008080;
+	color:white;
+	padding:7px 25px;
+}
+
+#discount{
+	color:#16AF98;
+}
+
+#discount-p{
+	font-size:16px;
+	font-weight:500;
+}
+
+/* <!--  set time out popUp --> */
+
+.tittle{
+	font-style:italic;
+}
+
+.navbar{
+	background: #1C9C89 ;
+}
+.nav-item .nav-link{
+	font-size:15px;
+	font-weight:500;
+}
+
+
+
+.banner .banner-col-1 img{
+	height:500px;
+	width:100%;
+}
+.banner p{
+	font-weight:500;
+	font-size:15px;
+}
+.banner h4{
+	font-weight:600;
+
+}
+
+#prodact-1{
+	overflow:hidden;
+}
+.product-img{
+	height:200px;
+	width:150px;
+
+	
+}
+.product-img-samsung{
+	height:200px;
+	width:150px;
+	overflow:hidden;
+}
+.product-text h6{
+	font-size:30px;
+
+}
+.product-text h4{
+	font-weight:bold;
+	font-size:20px;
+
+}
+.product-text h5{
+	font-weight:bold;
+	font-size:18px;
+
+}
+.all-product-heading h2{
+	font-size:20px;
+	font-weight:bold;
+}
+.bbt button{
+	outline:none!important;
+	border:1px solid black;
+	padding:5px 20px;
+	color:black;
+	font-weight:bold;
+	font-size: 16px;
+	transition:0.6s;
+}
+.bbt button:hover{
+	background: black;
+	color:white;
+	transition:0.6s;
+}
+.all-products-img img{
+	height:180px;
+width:150px;}
+.all-products-text h4{
+	font-weight: bold;
+	font-size:20px;
+	margin-top:14px;
+}
+.all-products-text h5{
+	font-weight: bold;
+	font-size:25px;
+}
+.all-products-text h3 .new-p{
+	font-weight: bold;
+	font-size:25px;
+	color:black;
+}
+.discount-area .ab i{
+height:40px;
+width:40px;
+background:black;
+color:white;
+font-size:20px;
+line-height:40px;
+border-radius:50%; 
+
+transition:.5s;
+
+}
+
+.discount-area .ab:hover i{
+	transform:rotate(360deg);
+}
+.discount-area h5{
+	font-size:15px;
+	font-weight:500;
+
+}
+
+.comment-text{
+	padding:5px 60px!important;
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+	
+
+}
+.crd{
+	border:1px solid black;
+	height:520px;
+
+}
+.news-input{
+  		border-radius:100px 0px 0px 100px !important;
+  		min-height:30px!important;
+  		border:1px solid black!important;
+  	}
+.news-sub{
+  		color:white !important;
+  		background:#5bc0de!important;
+  		border:1px solid black!important;
+  		border-radius: 0 100px 100px 0 !important;
+  	}
+  	ul{
+  		margin:0;
+  		padding:0;
+  	}
+  	ul li{
+  		list-style:none;
+  		text-decoration:none;
+  	}
+  	.contact h4{
+  		font-size:19px;
+  		font-weight:500;
+  	}
+  	.contact ul li{
+  		margin-top:7px;
+  		font-size:13px;
+  		font-weight:400;
+  	}
+
+	
+
+	/* .c-img img{
+		height:200px;
+	   width:200px;
+	   position:absolute;
+	   top:20%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+
+	}
+	.arif{
+		position:relative;
+		height:400px;
+	}
+  */
+	
+
+@media(max-width:470px){
+	.banner .banner-col-1 img{
+	height:400px;
+	width:50%;
+}
+.product-img{
+	height:180px;
+	width:150px;
+}
+.comment-text{
+	padding:5px 20px!important;
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+	
+
+}
+#popup{
+	height:300px;
+	width:350px;
+}
+#emailid{
+	width:90%;
+	padding:5px;
+}
+}
+@media(max-width:780px){
+	.crd{
+	border:1px solid black;
+	height:550px;
+
+}
+}
